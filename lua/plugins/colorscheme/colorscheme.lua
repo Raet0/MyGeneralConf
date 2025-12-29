@@ -7,7 +7,7 @@ return{
 			'folke/tokyonight.nvim',
 			'sho-87/kanagawa-paper.nvim',
 			'rebelot/kanagawa.nvim',
-			'everviolet/nvim',
+            'bluz71/vim-nightfly-colors',
 			-- Opciones adicionales
 			async = false,
 			activity = true, -- Para que guarde cuál fue el último que usaste
