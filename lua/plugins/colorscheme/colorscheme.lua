@@ -3,11 +3,10 @@ return{
 	priority = 1000,
 	config = function()
 		require('themify').setup({
-			-- Aquí es donde listas los temas que quieres probar
-			'folke/tokyonight.nvim',
-			'sho-87/kanagawa-paper.nvim',
-			'rebelot/kanagawa.nvim',
-            'bluz71/vim-nightfly-colors',
+			-- Themes 
+            'folke/tokyonight.nvim',
+            'rebelot/kanagawa.nvim',
+            'rose-pine/neovim',
 			-- Opciones adicionales
 			async = false,
 			activity = true, -- Para que guarde cuál fue el último que usaste

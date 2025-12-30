@@ -1,12 +1,21 @@
 return {
+  {
     "williamboman/mason.nvim",
+    opts = {},
+  },
+  {
+    "mason-org/mason-lspconfig.nvim",
+    dependencies = { "williamboman/mason.nvim" },
     opts = {
-        ui = {
-            icons = {
-                package_installed = "✓",
-                package_pending = "➜",
-                package_uninstalled = "✗"
-            },
-        },
+      ensure_installed = {
+        "lua_ls",
+        "pyright",
+        "ts_ls",
+        "html",
+        "cssls",
+        "angularls",
+      },
     },
+  },
 }
+

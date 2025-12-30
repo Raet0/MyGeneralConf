@@ -8,7 +8,7 @@ return {
     vim.g.barbar_auto_setup = false
   end,
   opts = {
-    animation = true,
+    animation = false,
     insert_at_start = true,
     -- Esto crea el límite visual para que las pestañas no toquen el explorador
     sidebar_filetypes = {
