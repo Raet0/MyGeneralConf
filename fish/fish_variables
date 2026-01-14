@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EZA_COLORS:di\x3d1\x3b34\x3afi\x3d0\x3b37\x3aln\x3d36\x3aex\x3d1\x3b32\x3a\x2a\x2emd\x3d35
+SETUVAR __fish_initialized:4300
+SETUVAR fish_user_paths:/home/linuxbrew/\x2elinuxbrew/opt/node\x4022/bin\x1e/home/linuxbrew/\x2elinuxbrew/opt/openjdk\x4021/bin
