@@ -1,0 +1,35 @@
+{
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSave": "afterDelay",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "Hack Nerd Font, VictorMono Nerd Font",
+  "terminal.integrated.fontFamily": "Hack Nerd Font, VictorMono Nerd Font",
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "sqldeveloper.sqlHistory.historyLimit": 500,
+  "sqldeveloper.telemetry.enabled": false,
+  "editor.lineNumbers": "off",
+  "vim.smartRelativeLine": true,
+  "editor.fontLigatures": true,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "chat.commandCenter.enabled": false,
+  "window.newWindowProfile": "Default",
+  "editor.minimap.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+},
+"workbench.editor.pinnedTabSizing": "compact",
+"window.density.editorTabHeight": "compact",
+"redhat.telemetry.enabled": false,
+// MOD FONT (NORMAL TO BOLD)
+"editor.fontWeight": "bold",
+"terminal.integrated.fontWeight": "bold"
+}
