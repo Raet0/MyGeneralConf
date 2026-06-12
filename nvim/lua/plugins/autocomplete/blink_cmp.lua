@@ -1,21 +1,29 @@
 return {
     "saghen/blink.cmp",
-    dependencies = { "L3MON4D3/LuaSnip", "rafamadriz/friendly-snippets" },
+    version = "*",
+    
+    -- 🚀 EL NUEVO MOTOR DE DESCARGA PARA LA V2
+    build = function() require('blink.cmp').build():pwait() end,
+    
+    dependencies = { 
+        "saghen/blink.lib", 
+        "L3MON4D3/LuaSnip", 
+        "rafamadriz/friendly-snippets" 
+    },
     opts = {
-        fuzzy = {
-            implementation = "lua",
-        }, 
         snippets = { preset = 'luasnip' },
         sources = {
             default = { "lsp", "path", "snippets", "buffer" },
         },
+        completion = {
+            list = { 
+                selection = { preselect = true, auto_insert = false } 
+            },
+        },
         keymap = {
             preset = "none",
-            -- Abrir menú manualmente (equivale a <C-Space>)
             ["<C-Space>"] = { "show", "fallback" },
-            -- Confirmar selección (equivale a <CR> con select = true)
-            ["<CR>"] = { "accept", "fallback", auto_select = true, },
-            -- Navegación por el menú
+            ["<CR>"] = { "accept", "fallback" },
             ["<Tab>"] = { "select_next", "fallback" },
             ["<S-Tab>"] = { "select_prev", "fallback" },
         },

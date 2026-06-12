@@ -63,5 +63,7 @@ require("lazy").setup({
         
         -- luasnip
         { import = "plugins.luasnip" },
+        -- latex
+        { import = "plugins.vimtex"}
     },
 })

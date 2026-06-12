@@ -32,3 +32,6 @@ opt.splitbelow = true           -- Nuevas ventanas horizontales abajo
 opt.splitright = true           -- Nuevas ventanas verticales a la derecha
 opt.showmode = false            -- Oculta el "-- INSERT --" porque Lualine ya lo muestra
 
+opt.wildmode = "longest,list" -- set wildmode=longest,list
+opt.swapfile = false
+

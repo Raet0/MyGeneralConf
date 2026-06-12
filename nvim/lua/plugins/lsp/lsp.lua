@@ -24,7 +24,7 @@ return {
             },
         })
         -- 2. Servidores para tu entorno idóneo
-        local servers = { "pyright", "bashls", "cssls", "html", "lua_ls", "ts_ls", "jdtls" }
+        local servers = { "pyright", "bashls", "cssls", "html", "lua_ls", "ts_ls", "jdtls", "textlab" }
 
         -- 3. Bucle de activación Nativa
         for _, server in ipairs(servers) do

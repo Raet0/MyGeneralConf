@@ -18,6 +18,7 @@ return {
                 "cssls",     -- CSS
                 "bashls",    -- Bash
                 "jdtls",     -- Java (Servidor básico)
+                "texlab",   -- latex
             },
         },
     },
