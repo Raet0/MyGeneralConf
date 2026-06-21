@@ -16,59 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     spec = {
-        -- file explorer
-        { import = "plugins.file_explorer" },
-
-        -- theme selector
-        { import = "plugins.themes" },
-
-        -- linea inferior (barra de estado)
-        { import = "plugins.statusbar" },
-
-        -- buscandor 
-        { import = "plugins.telescope" },
-
-        -- terminal 
-        { import = "plugins.terminal" },
-
-        -- sintaxis lenguage
-        { import = "plugins.treesitter" },
-
-        -- git(signs)
-        { import = "plugins.gitsigns" },
-
-        -- autoComplete
-        { import = "plugins.autocomplete" },
-
-        -- mason(plugins)
-        { import = "plugins.mason" },
-
-        -- lsp
-        { import = "plugins.lsp" },
-
-        -- autopais
-        { import = "plugins.autopairs" },
-
-        -- icons
-        { import = "plugins.icons" },
-
-        --snacks 
-        { import = "plugins.snacks" },
-
-        --tab-bar
-        { import = "plugins.tabs" },
-
-        -- new notifications
-        { import = "plugins.notifications" },
-        
-        -- luasnip
-        { import = "plugins.luasnip" },
-
-        -- latex
-        { import = "plugins.vimtex" },
-
-        -- pluggin for comments
-        { import = "plugins.comment" },
-
+        { import = "plugins" },
     },
 })
