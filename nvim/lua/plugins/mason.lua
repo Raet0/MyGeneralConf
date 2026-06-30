@@ -11,6 +11,7 @@ return {
         dependencies = { "williamboman/mason.nvim" },
         opts = {
             ensure_installed = {
+                "tinymist",  -- motor para el lenguage de texto typst
                 "lua_ls",    -- Lua
                 "pyright",   -- Python
                 "ts_ls",     -- JS/TS
