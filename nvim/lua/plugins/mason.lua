@@ -20,6 +20,8 @@ return {
                 "bashls",    -- Bash
                 "jdtls",     -- Java (Servidor básico)
                 "texlab",   -- latex
+                "astro",
+                "marksman"
             },
         },
     },

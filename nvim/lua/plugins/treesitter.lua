@@ -31,7 +31,7 @@ return {
             -- 4. Lista Completa para tu Stack
             ensure_installed = {
                 "lua", "bash", "python", "java",        -- Backend y Scripts
-                "javascript", "typescript", "tsx",      -- Frontend
+                "javascript", "typescript", "tsx", "Astro",      -- Frontend
                 "html", "css", "scss", "json", "yaml",  -- Web y Config
                 "markdown", "markdown_inline", "vim", "vimdoc", "regex"
             },

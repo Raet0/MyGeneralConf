@@ -1,10 +1,8 @@
 return {
     "saghen/blink.cmp",
     version = "*",
-    
     -- 🚀 EL NUEVO MOTOR DE DESCARGA PARA LA V2
     build = function() require('blink.cmp').build():pwait() end,
-    
     dependencies = { 
         "saghen/blink.lib", 
         "L3MON4D3/LuaSnip", 

@@ -1,7 +1,7 @@
-return 
-{
+return {
     "lervag/vimtex",
-    lazy = false, -- VimTeX necesita arrancar inmediatamente con los archivos .tex
+    enabled = false,
+    lazy = true, -- VimTeX necesita arrancar inmediatamente con los archivos .tex
     init = function()
         -- Configurar Zathura como el visor predeterminado
         vim.g.vimtex_view_method = "zathura"

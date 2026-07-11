@@ -14,6 +14,9 @@ return {
             -- 1. CORRECCIÓN DE COMANDOS (Sin depender de 'Snacks')
             close_command = "bd %d",       -- Al cerrar con el botón X
             right_mouse_command = "bd %d", -- Al cerrar con click derecho
+            indicator = {
+                style = "underline",
+            },
             -- 2. DIAGNÓSTICOS PERSISTENTES (Adaptado para no usar LazyVim.config)
             diagnostics = "nvim_lsp",
             always_show_bufferline = true, -- Tú pediste que siempre se vea
@@ -24,13 +27,11 @@ return {
                 .. (diag.warning and icons.Warn .. diag.warning or "")
                 return vim.trim(ret)
             end,
-
             -- 3. ESTÉTICA RECTANGULAR Y BOTÓN X (Tus requisitos)
             separator_style = "thin",       -- Aspecto rectangular plano
             enforce_regular_tabs = true,   -- Tamaño uniforme
             show_buffer_close_icons = true, -- La X que pediste
             show_close_icon = false,       -- Desactiva la X global al final de la barra
-
             -- 4. OFFSET PARA NVIM-TREE (Corregido de 'neo-tree' a 'nvim-tree')
             offsets = {
                 {
@@ -43,4 +44,4 @@ return {
             },
         },
     },
-}
+} 
